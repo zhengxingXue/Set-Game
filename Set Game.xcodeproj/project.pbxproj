@@ -20,6 +20,7 @@
 		383D0C652643BDE70015B6A3 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D0C642643BDE70015B6A3 /* Diamond.swift */; };
 		383D0C6726443A850015B6A3 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D0C6626443A850015B6A3 /* Cardify.swift */; };
 		383D0C92264850760015B6A3 /* CGExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D0C91264850760015B6A3 /* CGExtension.swift */; };
+		383D0C95264858FF0015B6A3 /* Simulator_iPhone11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 383D0C94264858FF0015B6A3 /* Simulator_iPhone11.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		383D0C642643BDE70015B6A3 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
 		383D0C6626443A850015B6A3 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		383D0C91264850760015B6A3 /* CGExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExtension.swift; sourceTree = "<group>"; };
+		383D0C94264858FF0015B6A3 /* Simulator_iPhone11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Simulator_iPhone11.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		383D0C432643A5400015B6A3 /* Set Game */ = {
 			isa = PBXGroup;
 			children = (
+				383D0C93264858E90015B6A3 /* Recording */,
 				383D0C612643AFAF0015B6A3 /* utils */,
 				383D0C552643A7100015B6A3 /* Views */,
 				383D0C542643A6D60015B6A3 /* ViewModel */,
@@ -136,6 +139,14 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		383D0C93264858E90015B6A3 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				383D0C94264858FF0015B6A3 /* Simulator_iPhone11.gif */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,6 +207,7 @@
 				383D0C582643A7680015B6A3 /* README.md in Resources */,
 				383D0C4C2643A5430015B6A3 /* Preview Assets.xcassets in Resources */,
 				383D0C492643A5430015B6A3 /* Assets.xcassets in Resources */,
+				383D0C95264858FF0015B6A3 /* Simulator_iPhone11.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
